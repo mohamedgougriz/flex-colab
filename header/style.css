@@ -28,4 +28,16 @@ header { display: flex
         text-decoration: none; }
 
     }
+    
+}
+main{
+    section{  background-image:url(background.png);
+        
+        .form{ text-align: center;
+
+        }
+        .y{
+            text-align: center;
+        }
+    }
 }
