@@ -29,6 +29,7 @@ section {
             font-weight: bolder;
         }
     }
+    button:hover{background-color: aqua;}
 }
 
 main {
@@ -44,19 +45,19 @@ footer {
     margin-top: 20px;
     margin-bottom: 0px;
 
-        ul {
-            li {
+    ul {
+        li {
+            list-style: none;
+
+
+            a {
                 list-style: none;
-
-
-                a {
-                    list-style: none;
-                    text-decoration: none;
-                    color: gray;
-                }
-
+                text-decoration: none;
+                color: rgb(55, 54, 54);
             }
+
         }
+    }
 
 
 
@@ -94,6 +95,7 @@ footer {
 
             font-weight: bolder;
         }
+        button:hover{background-color: aqua;}
     }
 }
 
@@ -102,4 +104,11 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    color: gray;
+    a{
+        text-decoration: none;
+        color: gray;
+        font-weight: bolder;
+        font-size: small;
+    }
 }
