@@ -44,14 +44,10 @@ footer {
     margin-top: 20px;
     margin-bottom: 0px;
 
-    .cont {
-
-        display: flex;
         ul {
-            display: flex;
-            flex-direction: column;
             li {
                 list-style: none;
+
 
                 a {
                     list-style: none;
@@ -63,7 +59,6 @@ footer {
         }
 
 
-    }
 
     .end {
         padding: 20px;
@@ -85,6 +80,7 @@ footer {
         input {
             border-radius: 20px;
             padding: 10px;
+            text-align: center;
         }
 
         button {
